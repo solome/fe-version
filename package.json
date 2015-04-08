@@ -1,0 +1,23 @@
+{
+  "name": "fe-version",
+  "version": "1.0.0",
+  "description": "build version numbers of static files.",
+  "main": "lib/version.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "version"
+  ],
+  "author": "solome",
+  "license": "MIT",
+  "devDependencies": {
+    "jest-cli": "^0.4.0"
+  },
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.11.1"
+  }
+}
